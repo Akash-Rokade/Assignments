@@ -1,0 +1,18 @@
+CDN-Content delivery network
+Its is a world-wide distributed group of servers which work together to provide fast delivery of internet content
+    CDN allows for the quick transfer of assest needed for loading internet content including HTMl pages js files css img and videos
+
+today major web traffic served through cdn including traffic from big sites like 1.facebook 2.netflix 3. amazon
+
+
+Static vs Dynamic Hosting-
+
+Static Hosting-
+Web pages are served by the server which are prebuilt source code files using simple lang such as HTML CSS or JS
+There is no processing of content on the server
+There is no interaction with DB and host does not need support server-side processing
+
+Dynamic hosting-
+web pages are served by te server which are processed during runtime.
+they are built runtime according to the user demand with the help of server-side scripting lang such as php node.js
+updates and interaction with DB

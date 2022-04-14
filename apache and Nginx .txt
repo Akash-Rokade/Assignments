@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    volumes:
+      - "/var/web:/usr/share/nginx/html"
+    ports:
+      - 80:80
+
+  httpd:
+    image: httpd
+    ports:
+       - 8080:80

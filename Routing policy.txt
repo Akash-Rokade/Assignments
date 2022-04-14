@@ -1,0 +1,27 @@
+Simple Routing -
+It is used to configure DNS records without Route 53 like weighted or latency,with this routing
+you can route traffic to single resource means to a web server for your website
+
+Failover Routing-
+Failover is used to route the all traffic to healthy resource or to another resource when another one is unhealthy
+
+
+Geolocation Routing-
+Geolocation routing is used to route traffic based on the geographic location of your users,means
+location that dns originate from
+ex if you want all queries from india to be routed to an elb load balancer in mumbai region
+when you use geolocation routing you can localize your content all of your website in the language of your users
+and you can also restrict geolocation to access your website
+
+Latency Routing-
+suppose your application is hosted on multiple aws region you can improve perfromance for user by serving their
+request from aws region that provide low latency
+
+Multivalue Routing-
+Multivalue answer routing us used to configure awz Route 53 to return multiple values such as Ip for your servers
+here you can give multiple value for almost any record but it will check the health of each resource so route 53 return
+only value for healthy resources
+
+weighted routing-
+weighted routing is used to associate multiple resource with a single domain name and choose how much traffic is routed
+to each resrouce so it is useful of purposes includin load balacing and testinf new release of software

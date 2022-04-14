@@ -1,0 +1,17 @@
+#!/bin/bash
+FILE=$(pwd)/myfile.txt
+echo $FILE
+if test -f "$FILE"; then
+        echo ""
+else
+          echo 1 > myfile.txt
+fi
+i=`cat myfile.txt`
+last=`expr $i + 25`
+while [ $i -lt $last ]
+do
+        touch akash$i
+        echo $i
+        i=`expr $i + 1`
+        echo "$i" > myfile.txt
+done

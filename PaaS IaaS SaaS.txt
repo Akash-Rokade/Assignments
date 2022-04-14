@@ -1,0 +1,16 @@
+PaaS- Platform as a service
+It provides computing platforms including OS ,programming language execution env ,DB,web server.
+Simply it provides an environment for developers to create ,host and deploy applications,saving dev from complexities of infra
+Ex: Windows Azure, AWS elastic beanstalk google app engine
+
+IaaS- Infrastructure as a service
+It provides virtualized computing resources over Internet.
+cloud provider manages IT infrastructure such as storage ,server and networking resources.
+Ex.AWS,Microsoft Azure,Google Compute Engine
+
+Saas- Software as a service
+It is way of delivering applications over the Internet-as a service Instead of installing and manintaining software, you can simply
+access it via internet
+Simply they are web-based s/w, on demand s/w or hosted s/w
+ 
+Ex. Google Apps, Microsoft Office 365

@@ -1,0 +1,5 @@
+Apache web server stores its config files in /etc/httpd/conf/ and you can see conf file in this dir using ls cmd httpd.conf
+
+check website data in /var/www/html/ hit enter then ls you will get your webpages if you created inside this dir
+
+serverroot- this is default root /etc/httpd

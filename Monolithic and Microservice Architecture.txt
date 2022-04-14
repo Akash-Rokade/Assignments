@@ -1,0 +1,30 @@
+Monolithic Architechture-
+
+It is a single unit,Normally monlithic application have one large code base If developers want to update or change in code
+they access the same code base so they make changes in the whole stack at once.
+
+pros-   start and develop project is simpler
+easier to test a structure
+deployment is very simple
+
+cons- large code is harder to understand
+difficult to integrate new or latest technology
+
+Microservice Architecture-
+
+It is break it down into collection of smaller unit,these units carry out every application process as a separate service
+so all service have their own logic and database
+
+pros- software easier to maintain
+flexibility in using tech and scalaability
+
+cons- poor perfomance as microservice need to communicate(network latency and message processing)
+harder to maintain network(need more LB)
+
+Which one?-
+    One approach does not fit all
+
+For a lightweight application monolithic suits better
+For complex application microservice suit better
+its upto us which to choose
+but..Microservice offer a unique kind of modularization they make big solution easier increse productivity offer flexibility in choosing tech.
